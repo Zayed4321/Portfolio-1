@@ -1,0 +1,735 @@
+/************************** Common CSS Part Begins Here *************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;  
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+body {
+    background: #222;
+    color: #fff;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #bac964;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+/************************** Common CSS Part Ends Here *************************/
+
+/***************************************** Navbar Part Begins Here *******************************************/
+#navbar {
+    position: absolute;
+    content: "";
+    z-index: 9999;
+    top: 0;
+    right: 657px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.navcustom .navbar-nav > li > a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: 15px 20px !important;
+}
+/**************************************** Navbar Part Ends Here ************************************************/
+
+/**************************************** Banner Part Begins Here *********************************************/
+#Banner {
+    background: url(../css/Images/Man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+#Banner .overlay {
+    background: #000000;
+    opacity: 0.7;
+    height: 100vh;
+}
+
+#Banner {
+    padding-bottom: 90px;
+}
+
+.bannertxt {
+    padding: 304px 468px;
+    text-align: center;
+    color: #fff;
+}
+
+.bannertxt h1 {
+    line-height: 1.2;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.bannertxt h1 strong {
+    font-weight: 800;
+    display: block;
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+.bannertxt h2 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-weight: bolder;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+/****************************************** Banner Part Ends Here **********************************************/
+
+/**************************************** Featured Part Begins Here *********************************************/
+
+#Featured {
+    padding: 70px 0;
+}
+
+.featureheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.featurenav li a:hover {
+    color: #bac964;
+}
+
+.square img {
+    width: 100%;
+    height: 315px;
+}
+
+.square, .packagebox, .packet, .packagingbrand, .Isometric, .whitespacephotography {
+    font-size: 20px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.packagebox img {
+    width: 100%;
+    height: 315px;
+}
+
+.packet img {
+    width: 100%;
+    height: 315px;
+}
+
+.packagingbrand img {
+    width: 100%;
+    height: 315px;
+}
+
+.Isometric img {
+    width: 100%;
+    height: 315px;
+}
+
+.whitespacephotography img {
+    max-width: 100%; 
+    height: 315px;
+    width: 415px;
+}
+
+.mockup1 {
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.mockup1 p{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cccccc;
+
+}
+
+.mockup2 p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #cccccc;
+
+}
+
+.mockup1 h4 {
+    padding: 10px 0;
+}
+
+.mockup2 h4 {
+    padding: 10px 0;
+}
+
+/* .mockup2 {
+    margin: 10px 0;
+} */ 
+
+/****************************************** Featured Part Ends Here **********************************************/
+
+/**************************************** Resume Part Begins Here *********************************************/
+
+#Resume {
+    padding: 70px 0;
+}
+
+.resumeheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.eduheading h2 {
+    text-align: center;
+}
+
+.eduicon img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.edubox .eduicon p {
+    display: inline-block;
+    color: #fff;
+} 
+
+.edubox {
+    background-color: #333;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+
+.edubox h3 {
+    color: #bac964;
+    font-size: 20px;
+}
+
+.edubox p {
+    color: rgb(255 253 253 / 40%);
+}
+
+.edubox .uniname {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+
+/****************************************** Resume Part Ends Here **********************************************/
+
+/**************************************** About Part Begins Here *********************************************/
+
+#about {
+    padding: 90px 0;
+}
+
+.aboutheading {
+    padding: 30px 60px;
+}
+
+.aboutheading p {
+    color: rgb(255 253 253 / 40%);
+}
+
+.aboutbtn {
+    padding: 15px 0px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+/* .hire {
+    padding: 10px 5px;
+    background-color: #bac964;
+    border-radius: 100px;
+    
+} */
+
+.btn1 {
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    background-color: #bac964;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: linear 2s;
+}
+
+.btn1:hover {
+    opacity: 0.7;
+    transition: ease-in-out 2s;
+} 
+
+
+/* .cvdownload {
+    padding: 10px 5px;
+    background-color: #6c757d;
+    border-radius: 100px;
+} */
+
+.btn2 {
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    background-color: #6c757d;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in-out 2s;
+}
+
+.btn2:hover {
+    opacity: 0.7;
+    transition: linear 2s;
+} 
+
+.aboutpic img {
+    max-width: 100%;
+}
+
+/****************************************** About Part Ends Here **********************************************/
+
+/**************************************** Client Part Begins Here *********************************************/
+
+#Testimonial {
+    padding: 90px 0;
+}
+
+.testimonialheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.manpfp img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.review1 {
+    margin: 40px 0;
+}
+
+.review2 {
+    margin: 40px 0;
+}
+
+.reviewbox {
+    padding: 30px;
+    background: #333;
+    border-radius: 7px;
+    position: relative;
+    box-shadow: 0 2px 30px -2px rgba(0, 0, 0, 0.1);
+}
+
+.reviewbox p {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.reviewbox cite {
+    font-size: 14px;
+    color: #666666;
+}
+
+.reviewbox a {
+    color: #bac964 !important;
+}
+
+
+
+/****************************************** Client Part Ends Here **********************************************/
+
+/**************************************** Service Part Begins Here *********************************************/
+
+#Service {
+    padding: 90px 0;
+}
+
+.serviceheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.servicebox {
+    background: #333;
+    padding: 30px;
+}
+
+.servicebox h3 {
+    margin-bottom: 35px;
+}
+
+.servicebox p {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.servicebox a {
+    color: #bac964;
+}
+
+.servicebox2 a {
+    margin-top: 29px;
+}
+
+.servicebox1 a {
+    margin-top: 10px;
+}
+
+/* .serviceicon i {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+} */
+
+.serviceicon {
+    display: inline-block;
+    background: #bac964;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+    padding-top: 15px;
+
+}
+
+.serviceicon2 {
+    display: inline-block;
+    background: #bac964;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+    padding-top: 20px;
+    margin-top: 8px;
+}
+
+
+.serviceicon3 {
+    display: inline-block;
+    background: #bac964;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto 32px auto;
+    padding-top: 15px;
+    margin-top: 8px;
+}
+
+.srvcarrow img {
+    transition: 1s all ease;
+}
+
+.srvcarrow:hover img {
+    transform: translateX(30px);
+    transition: 1s all ease;
+}
+
+.servicebox a {
+    transition: 1s all ease;
+}
+
+.servicebox a:hover  {
+    transform: translateX(-20PX);
+    transition: 1s all ease;
+
+}
+
+
+/****************************************** Service Part Ends Here **********************************************/
+
+/**************************************** Blog Part Begins Here *********************************************/
+
+#Blog {
+    padding: 90px 0;
+}
+
+.blogheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.blogbox {
+    transition: .3s all ease;
+    position: relative;
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    background: #333;
+}
+
+.blogbox:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: .3s all ease;
+}
+
+.blogimg img {
+    max-width: 100%;
+    height: 277px;
+}
+
+.blogtxt {
+    padding: 30px;
+}
+
+.blogbox h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    transition: .3s all;
+    margin-bottom: 15px;
+
+}
+
+.blogbox h3:hover {
+    color: #bac964;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.blogtxt p {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.blogdata {
+    display: flex;
+    transition: .3s all;
+}
+
+.blogdata:hover p{
+    color: #bac964;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+.blogdate {
+    display: flex;
+}
+
+.blogdate img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.blogcomment{
+    display: flex;
+}
+
+.blogcomment img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+/****************************************** Blog Part Ends Here **********************************************/
+
+/**************************************** Contact Part Begins Here *********************************************/
+
+#Contact {
+    padding: 90px 0;
+}
+
+.contactheading {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+.contactheading2 {
+    margin-bottom: 62px;
+}
+
+.contactform1 {
+    margin-bottom: 16px;
+}
+
+.contactdata {
+    border: none !important;
+    background: #333;
+    color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+
+}
+
+.contactdata:focus {
+    background: #404040;
+    color: #fff;
+    outline: 0;
+}
+
+.contactform1 textarea {
+    height: auto;
+}
+
+.contactbtn {
+    padding: 15px 0px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contactbtn1 {
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    background-color: #bac964;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: linear 2s;
+}
+
+.contactbtn1:hover {
+    opacity: 0.7;
+    transition: ease-in-out 2s;
+} 
+
+.contactdetails {
+    margin-left: 65px;
+}
+
+.mailcontact h5 {
+    color: #2c3e50;
+    letter-spacing: .1em;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.mailcontact {
+    margin-bottom: 20px;
+}
+
+.mailcontact p {
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.endingtxt {
+    color: #bac964;
+    text-transform: capitalize;
+}
+
+.endingpara {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.socialicons {
+    display: flex;
+    align-items: center;
+    text-align: center !important;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.socialicons a {
+    text-align: center !important;
+    justify-content: center;
+}
+
+.socialicons a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    position: relative;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+/****************************************** Contact Part Ends Here **********************************************/
+
+/**************************************** Conclusion Part Begins Here *********************************************/
+
+
+
+/****************************************** Conclusion Part Ends Here **********************************************/
