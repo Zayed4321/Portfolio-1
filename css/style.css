@@ -134,9 +134,29 @@ body {
     margin-bottom: 62px;
 }
 
-.featurenav li a:hover {
-    color: #bac964;
+
+/* buttons part instead of navbar codes */
+
+.featurebtn {
+    text-align: center;
 }
+
+.featurebtn button {
+    border: 0 none;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0 5px;
+    font-size: 100%;
+    max-width: 100%;
+    vertical-align: baseline;
+    text-align: center;
+    transition: all linear 0.5s;
+    cursor: pointer;
+}
+
+/* buttons part instead of navbar codes */
 
 .square img {
     width: 100%;
